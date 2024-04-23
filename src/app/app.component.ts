@@ -10,9 +10,6 @@ import { customIcons } from './shared/custom-icons';
 export class AppComponent {
   title = 'custom icon';
 
-  customIcons = [
-    { name: 'agregar', path: '../assets/icons/agregar.svg' },
-  ]
 
   constructor (private iconServices: IconServices) {
     this.iconServices.generateIcon();
